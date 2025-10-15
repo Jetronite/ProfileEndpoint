@@ -1,0 +1,24 @@
+{
+  "name": "profileendpoint",
+  "version": "1.0.0",
+  "description": "A simple RESTful API built with Express.js that returns your profile information, a timestamp, and a random cat fact fetched dynamically from the CatFact Ninja API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jetronite/ProfileEndpoint.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jetronite/ProfileEndpoint/issues"
+  },
+  "homepage": "https://github.com/Jetronite/ProfileEndpoint#readme",
+  "dependencies": {
+    "axios": "^1.12.2",
+    "express": "^5.1.0"
+  }
+}
