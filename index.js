@@ -17,6 +17,7 @@ app.get("/me", async (req, res) => {
         };
 
         const result = {
+            status: "success",
             user,
             timestamp: currentTime,
             fact: response.data.fact,
